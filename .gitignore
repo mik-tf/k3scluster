@@ -1,0 +1,190 @@
+# Test files
+/test
+/scripts
+
+# Config files
+ha_cluster.txt
+all_files_text.txt
+
+# Compiled object files
+*.o
+*.a
+*.so
+
+# Executables
+*.exe
+*.out
+*.bin
+
+# Log files
+*.log
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+temp.*
+tmp.*
+
+# Build directories
+build/
+target/
+dist/
+bin/
+obj/
+
+# Package manager directories
+node_modules/
+vendor/
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Configuration files (sensitive!)
+*.ini
+*.cfg
+*.conf
+*.config
+*.properties
+*.env
+*.yml
+*.yaml
+*.json
+
+# Database files
+*.db
+*.sql
+*.sqlite
+
+# Private keys
+*.key
+*.pem
+
+# Certificates
+*.crt
+*.cer
+*.p12
+
+# API keys and secrets
+*.secret
+*.token
+
+# Credentials
+.aws/credentials
+.docker/config.json
+.github/
+
+# Cache directories
+.cache/
+__pycache__/
+
+# Test results
+.pytest_cache/
+coverage.xml
+
+# Documentation builds
+_build/
+htmlcov/
+
+# Password files
+*.pass
+*.passwd
+
+# Sensitive data files (adjust as needed)
+data.csv
+passwords.txt
+
+# Shell history files
+.bash_history
+.zsh_history
+
+
+# Sensitive directories (adjust as needed)
+secrets/
+sensitive_data/
+
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled Java class files
+*.class
+
+# Compiled C# files
+*.dll
+
+
+# Package lock files (depending on your preference)
+package-lock.json
+yarn.lock
+composer.lock
+Gemfile.lock
+
+
+# Go modules
+go.sum
+
+
+# Rust target directory
+target/
+
+# Swift build directory
+.build/
+
+# Xcode user data
+*.xcuserdatad
+
+# Pods directory for CocoaPods
+Pods/
+
+# Kubernetes specific files
+
+# Kubeconfig files (contain credentials!)
+*.kubeconfig
+config
+kubeconfig
+
+# Kubernetes secrets (should NEVER be committed)
+*.yaml  # While YAML is commonly used, secrets can be in other formats
+*.yml
+*.json
+
+# Helm charts values files (may contain sensitive data)
+values.yaml
+values.yml
+values*.yaml
+values*.yml
+secrets.yaml
+
+# Kustomize secrets (similar to Helm values)
+*.yaml  # Be specific if possible: e.g., secrets.yaml
+*.yml
+*.json
+
+# k3s specific configurations (potentially sensitive)
+k3s.yaml
+
+# State files
+server-state.json
+
+# Any temporary manifest files
+*.tmp.yaml
+*.temp.yaml

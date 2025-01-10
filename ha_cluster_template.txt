@@ -1,0 +1,9 @@
+control plane nodes:
+node1@100.121.222.20
+node2@100.112.102.15
+node3@100.97.250.102
+
+worker nodes:
+node4@100.116.163.44
+node5@100.66.77.13
+node6@100.67.182.33
