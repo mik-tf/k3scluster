@@ -14,6 +14,7 @@
 - [Cleanup](#cleanup)
 - [License](#license)
 - [Contributing](#contributing)
+- [Disclaimer](#disclaimer)
 - [Support](#support)
 
 ---
@@ -148,6 +149,12 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](./LICEN
 ## Contributing
 
 Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request.
+
+## Disclaimer
+
+This project is provided "as is" without any warranty, express or implied. Use it at your own risk.  The authors and contributors will not be liable for any damages or losses arising from the use of this project.
+
+This script automates the deployment of a Kubernetes cluster and related infrastructure.  While designed for ease of use, it involves potentially destructive actions such as installing software and modifying system configurations on your target nodes.  **Ensure you understand the implications and have backups before proceeding.**
 
 ## Support
 
